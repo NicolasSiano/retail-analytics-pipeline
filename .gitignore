@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local secrets and temporary files
+.env.*
+!.env.example
+credentials/
+secrets/
+*.pem
+*.key
+.tmp/
+*.tmp
+~$*
+
+# Generated artifacts
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/data/rejected/*
+!/data/rejected/.gitkeep
+/reports/*
+!/reports/.gitkeep
+/logs/*
+!/logs/.gitkeep
